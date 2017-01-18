@@ -194,11 +194,6 @@ def verify_one_by_one():
         print(content_ver)
 
 
-def recognition_test():
-    reco_image = "E:\\zhangbin\\Data\\lfw\\lfw\\lfw\\Patty_Schnyder\\Patty_Schnyder_0004.jpg"
-    recognize(image_to_base64(reco_image))
-
-
 def compare_test():
     lfw_file = open("pairs_baidu.txt")
     res_file = open("res_baidu.txt", "a+")
