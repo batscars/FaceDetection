@@ -1,1 +1,1 @@
-# Baidu-Facepp-test
+# face detection interface test python source code
